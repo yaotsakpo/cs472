@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+}
+h1, h3 {
+    color: lightskyblue;
+}
+h2 {
+    color: yellow;
+}
+.container {
+    width: 1024px;
+    margin: auto;
+    background-color: ghostwhite;
+    padding-bottom: 30px;
+}
+section {
+    padding: 5px 10px 0px 10px;
+}
+.moods-row {
+    display: flex;
+    height: 300px;
+}
+.moods-row div {
+    flex: 1;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mood-happy {
+    background-image: url("./images/happy.jpeg");
+}
+.mood-sad {
+    background-image: url("./images/sad.jpeg");
+}
+footer {
+    width: 100%;
+    max-width: 1024px;
+    text-align: right;
+}
+.movies-list li a {
+    text-decoration: none;
+}
+.movies-list li a:hover {
+    text-decoration: underline;
+}
+p:first-letter {
+    font-size: 1.5rem;
+}
