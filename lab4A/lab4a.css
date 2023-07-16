@@ -1,0 +1,49 @@
+
+  
+  @media (max-width: 600px) {
+    .custom-row {
+      flex-wrap: wrap; /* Allow wrapping of columns */
+    }
+    
+    .custom-col:nth-child(2) {
+      width: 100%; /* Make the second column take full width */
+      order: 3; /* Move column 2 to the bottom */
+    }
+
+    .custom-col {
+        flex: 1 0 35%; /* Set the columns to occupy equal width */
+      }
+
+    
+  }
+  
+  
+
+.nav-item {
+  border-right: 1px solid black;
+}
+
+.nav-item a {
+  color: white !important;
+}
+
+header {
+  background-color: #add8e6;
+}
+
+footer {
+  background-color: #2f4f4f;
+}
+
+.header-text {
+  color: black !important;
+}
+
+.footer-text {
+  color: white !important;
+}
+
+.custom-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
